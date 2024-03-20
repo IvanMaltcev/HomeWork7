@@ -7,7 +7,7 @@ public class Main {
         int total = 0;
         int amountMonth = 1;
         while (total < 2_459_000) {
-            total = total + (total / 100) + deposit;
+            total += deposit;
             System.out.println("Месяц " + amountMonth + ", сумма накоплений равна "
                     + total + " рублей.");
             amountMonth++;
